@@ -23,8 +23,8 @@ tags:
 - Database
 - Data
 - Amazon Web Services
-created: "2018-03-13"
-modified: "2018-03-13"
+created: "2018-03-15"
+modified: "2018-03-15"
 url: https://raw.githubusercontent.com/streamdata-gallery/delivery/master/_listings/aws-kinesis-firehose/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -37,7 +37,7 @@ apis:
   tags: Delivery
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/delivery/master/_listings/aws-kinesis-firehose/action-listdeliverystreams-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/delivery/master/_listings/aws-kinesis-firehose/action-createdeliverystream-get.md
 x-common:
 - type: x-console
   url: https://console.aws.amazon.com/firehose/
