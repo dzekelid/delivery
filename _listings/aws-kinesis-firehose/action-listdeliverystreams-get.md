@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListDeliveryStreams&k=1:
+  /?Action=ListDeliveryStreams:
     get:
       summary: ' List Delivery Streams '
       description: lists your delivery streams
