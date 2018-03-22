@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteDeliveryStream&k=1:
+  /?Action=DeleteDeliveryStream:
     get:
       summary: ' Delete Delivery Stream '
       description: deletes a delivery stream and its data
