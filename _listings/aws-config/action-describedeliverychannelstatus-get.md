@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeDeliveryChannelStatus&k=1:
+  /?Action=DescribeDeliveryChannelStatus:
     get:
       summary: ' Describe Delivery Channel Status '
       description: Returns the current status of the specified delivery channel
