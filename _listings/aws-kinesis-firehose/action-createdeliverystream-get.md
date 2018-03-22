@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateDeliveryStream&k=1:
+  /?Action=CreateDeliveryStream:
     get:
       summary: ' Create Delivery Stream '
       description: creates a delivery stream
