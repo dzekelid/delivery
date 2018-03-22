@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=PutDeliveryChannel&k=1:
+  /?Action=PutDeliveryChannel:
     get:
       summary: ' Put Delivery Channel '
       description: Creates a delivery channel object to deliver configuration information
