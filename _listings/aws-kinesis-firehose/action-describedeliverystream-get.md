@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeDeliveryStream&k=1:
+  /?Action=DescribeDeliveryStream:
     get:
       summary: ' Describe Delivery Stream '
       description: describes the specified delivery stream and gets the status
