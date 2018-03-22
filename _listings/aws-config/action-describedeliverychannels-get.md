@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeDeliveryChannels&k=1:
+  /?Action=DescribeDeliveryChannels:
     get:
       summary: ' Describe Delivery Channels '
       description: Returns details about the specified delivery channel
