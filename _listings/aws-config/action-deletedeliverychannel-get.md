@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteDeliveryChannel&k=1:
+  /?Action=DeleteDeliveryChannel:
     get:
       summary: ' Delete Delivery Channel '
       description: Deletes the delivery channel
