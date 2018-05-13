@@ -25,15 +25,15 @@ modified: "2018-03-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/delivery/master/_listings/akamai/apis.yaml
 specificationVersion: "0.14"
 apis:
-- name: Akamai API List Download Delivery Metrics
-  description: List Download Delivery Metrics
+- name: Akamai API List Object Delivery Metrics
+  description: List Object Delivery Metrics
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Akamai_Technologies,_Inc._Logo.png
   humanURL: https://akamai.com
   baseURL: https://developer.akamai.com//
   tags: Delivery
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/delivery/master/_listings/akamai/media-reports-v1-download-delivery-metrics-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/delivery/master/_listings/akamai/media-reports-v1-object-delivery-metrics-get.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com
