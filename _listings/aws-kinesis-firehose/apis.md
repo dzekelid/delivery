@@ -38,7 +38,28 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/delivery/master/_listings/aws-kinesis-firehose/action-listdeliverystreams-get.md
+- name: AWS Kinesis Firehose API Create Delivery Stream
+  description: creates a delivery stream.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonKinesis_AmazonKinesisFirehose.png
+  humanURL: https://aws.amazon.com/kinesis/firehose/
+  baseURL: http:://{host}//
+  tags: Delivery
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/delivery/master/_listings/aws-kinesis-firehose/action-createdeliverystream-get.md
 x-common:
+- type: x-console
+  url: https://console.aws.amazon.com/firehose/
+- type: x-documentation
+  url: http://docs.aws.amazon.com/firehose/latest/APIReference/Welcome.html
+- type: x-faq
+  url: https://aws.amazon.com/kinesis/firehose/faqs/
+- type: x-getting-started
+  url: https://aws.amazon.com/kinesis/firehose/getting-started/
+- type: x-pricing
+  url: https://aws.amazon.com/kinesis/firehose/pricing/
+- type: x-website
+  url: https://aws.amazon.com/kinesis/firehose/
 - type: x-console
   url: https://console.aws.amazon.com/firehose/
 - type: x-documentation
