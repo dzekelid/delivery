@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Config API
+  title: AWS Config API Delete Delivery Channel
   version: 1.0.0
+  description: Deletes the delivery channel.
 schemes:
 - http
 produces:
