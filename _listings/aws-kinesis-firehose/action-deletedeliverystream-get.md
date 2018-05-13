@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Kinesis Firehose API
+  title: AWS Kinesis Firehose API Delete Delivery Stream
   version: 1.0.0
+  description: deletes a delivery stream and its data.
 schemes:
 - http
 produces:
