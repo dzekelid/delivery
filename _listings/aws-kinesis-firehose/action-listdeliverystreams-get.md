@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Kinesis Firehose API
+  title: AWS Kinesis Firehose API List Delivery Streams
   version: 1.0.0
+  description: lists your delivery streams.
 schemes:
 - http
 produces:
