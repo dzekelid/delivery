@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: Akamai Merged API
+  title: Akamai API Get Edge Bandwidth for Universal Live Streams
+  description: Get Edge Bandwidth for Universal Live Streams
   version: 1.0.0
+host: developer.akamai.com
+basePath: /
 schemes:
 - http
 produces:
@@ -16,23 +19,23 @@ paths:
       description: Get Edge Bandwidth for Universal Live Streams
       operationId: deliveryformat
       parameters:
-      - in: String
+      - in: query
         name: accountId
         description: Unique identifier for the account
         type: string
-      - in: String
+      - in: query
         name: deliveryFormat
         description: The stream format, discussed above
         type: string
-      - in: Number
+      - in: query
         name: eventId
         description: Unique identifier for the event
         type: string
-      - in: String
+      - in: query
         name: range
         description: The range, in minutes, of data to retrieve
         type: string
-      - in: Number
+      - in: query
         name: streamId
         description: Unique identifier for the stream
         type: string
