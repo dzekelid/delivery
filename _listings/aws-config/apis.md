@@ -35,15 +35,16 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/delivery/master/_listings/aws-config/action-putdeliverychannel-get.md
-- name: AWS Config API Describe Delivery Channel Status
-  description: Returns the current status of the specified delivery channel.
+- name: AWS Config API Put Delivery Channel
+  description: Creates a delivery channel object to deliver configuration information
+    to an Amazon S3 bucket and Amazon SNS topic.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSConfig.png
   humanURL: https://aws.amazon.com/config/
   baseURL: http:://{host}//
   tags: Delivery
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/delivery/master/_listings/aws-config/action-describedeliverychannelstatus-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/delivery/master/_listings/aws-config/action-putdeliverychannel-get.md
 x-common:
 - type: x-command-line-interface
   url: http://docs.aws.amazon.com/cli/latest/reference/configservice/index.html
