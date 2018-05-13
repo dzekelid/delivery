@@ -35,7 +35,36 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/delivery/master/_listings/aws-config/action-putdeliverychannel-get.md
+- name: AWS Config API Delete Delivery Channel
+  description: Deletes the delivery channel.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSConfig.png
+  humanURL: https://aws.amazon.com/config/
+  baseURL: http:://{host}//
+  tags: Delivery
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/delivery/master/_listings/aws-config/action-deletedeliverychannel-get.md
 x-common:
+- type: x-command-line-interface
+  url: http://docs.aws.amazon.com/cli/latest/reference/configservice/index.html
+- type: x-console
+  url: https://console.aws.amazon.com/config
+- type: x-documentation
+  url: http://docs.aws.amazon.com/config/latest/APIReference/
+- type: x-faq
+  url: https://aws.amazon.com/config/faq/
+- type: x-forum
+  url: https://forums.aws.amazon.com/forum.jspa?forumID=184
+- type: x-getting-started
+  url: https://aws.amazon.com/config/getting-started/
+- type: x-partners
+  url: https://aws.amazon.com/config/partners/
+- type: x-pricing
+  url: https://aws.amazon.com/config/pricing/
+- type: x-support
+  url: https://console.aws.amazon.com/support/
+- type: x-website
+  url: https://aws.amazon.com/config/
 - type: x-command-line-interface
   url: http://docs.aws.amazon.com/cli/latest/reference/configservice/index.html
 - type: x-console
