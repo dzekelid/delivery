@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Config API
+  title: AWS Config API Put Delivery Channel
   version: 1.0.0
+  description: Creates a delivery channel object to deliver configuration information
+    to an Amazon S3 bucket and Amazon SNS topic.
 schemes:
 - http
 produces:
