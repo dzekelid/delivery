@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Config API
+  title: AWS Config API Describe Delivery Channel Status
   version: 1.0.0
+  description: Returns the current status of the specified delivery channel.
 schemes:
 - http
 produces:
