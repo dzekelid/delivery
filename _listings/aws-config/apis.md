@@ -17,7 +17,22 @@ created: "2018-08-26"
 modified: "2018-08-26"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/delivery/master/_listings/aws-config/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: AWS Config API - Deliver Config Snapshot
+  x-api-slug: actiondeliverconfigsnapshot-get
+  description: Schedules delivery of a configuration snapshot to the Amazon S3 bucket
+    in the specified delivery channel.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSConfig.png
+  humanURL: https://aws.amazon.com/config/
+  baseURL: :///
+  tags: Amazon Web Services, Applications, Regulations, Governance, Security, Authentication,
+    Stack Network, API Service Provider, API Service Provider, API Provider, Profiles,
+    Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/delivery/master/_listings/aws-config/actiondeliverconfigsnapshot-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/delivery/master/_listings/aws-config/actiondeliverconfigsnapshot-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.cognito.api.gallery.streamdata.io

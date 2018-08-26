@@ -1,5 +1,6 @@
 ---
 name: Postmates
+x-slug: postmates
 description: Postmates is the leading on-demand logistics provider. With more than
   20,000 active Postmates, the company operates the largest on-demand delivery fleet
   in 40 major US metropolitan markets. Postmates overall mission to power local, on-demand
@@ -8,16 +9,11 @@ description: Postmates is the leading on-demand logistics provider. With more th
   that mission. T
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/postmates-logo.jpg
 x-kinRank: "9"
-x-alexaRank: ""
-tags:
-- Target
-- Stack Network
-- Stack
-- Local
-- Delivery
-created: "2018-03-10"
-modified: "2018-03-10"
-url: https://raw.githubusercontent.com/streamdata-gallery/delivery/master/_listings/postmates/apis.yaml
+x-alexaRank: "0"
+tags: Delivery
+created: "2018-08-26"
+modified: "2018-08-26"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/delivery/master/_listings/postmates/apis.md
 specificationVersion: "0.14"
 apis: []
 x-common:

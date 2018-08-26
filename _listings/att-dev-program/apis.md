@@ -40,6 +40,34 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/delivery/master/_listings/att-dev-program/3smsmessagingoutboundrequestssenderaddressrequestiddeliveryinfos-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/delivery/master/_listings/att-dev-program/3smsmessagingoutboundrequestssenderaddressrequestiddeliveryinfos-get-openapi.md
+- name: AT&T API - Get Messaging Outbound Senderaddress Requestid Deliveryinfos
+  x-api-slug: 3messagingoutboundsenderaddressrequestiddeliveryinfos-get
+  description: /3/messaging/outbound/{senderAddress}/{requestId}/deliveryInfos
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/156-at&t-dev-program.jpg
+  humanURL: http://att.com
+  baseURL: https://api.att.com//
+  tags: SMS, Cloud, Storage, Notifications, Voice, MMS, Stack Network, Telecommunications,
+    Media, ISP, API Provider, Telecommunications, Messages, Messages, Profiles, Service
+    API, Networks
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/delivery/master/_listings/att-dev-program/3messagingoutboundsenderaddressrequestiddeliveryinfos-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/delivery/master/_listings/att-dev-program/3messagingoutboundsenderaddressrequestiddeliveryinfos-get-openapi.md
+- name: AT&T API - Get SMS Outbound Requests Senderaddress Requestid Deliveryinfos
+  x-api-slug: 3smsmessagingoutboundrequestssenderaddressrequestiddeliveryinfos-get
+  description: /3/smsmessaging/outbound/requests/{senderAddress}/{requestId}/deliveryInfos
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/156-at&t-dev-program.jpg
+  humanURL: http://att.com
+  baseURL: https://api.att.com//
+  tags: SMS, Cloud, Storage, Notifications, Voice, MMS, Stack Network, Telecommunications,
+    Media, ISP, API Provider, Telecommunications, Messages, Messages, Profiles, Service
+    API, Networks
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/delivery/master/_listings/att-dev-program/3smsmessagingoutboundrequestssenderaddressrequestiddeliveryinfos-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/delivery/master/_listings/att-dev-program/3smsmessagingoutboundrequestssenderaddressrequestiddeliveryinfos-get-openapi.md
 x-common:
 - type: x-android-sdk
   url: https://developer.att.com/sdks-plugins/att-api-platform-sdk-for-android

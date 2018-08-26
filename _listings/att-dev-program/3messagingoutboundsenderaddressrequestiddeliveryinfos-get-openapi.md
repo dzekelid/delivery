@@ -35,6 +35,27 @@ paths:
       - Senderress
       - RequestId
       - DeliveryInfos
+  /3/smsmessaging/outbound/requests/{senderAddress}/{requestId}/deliveryInfos:
+    get:
+      summary: Get SMS Outbound Requests Senderaddress Requestid Deliveryinfos
+      description: /3/smsmessaging/outbound/requests/{senderAddress}/{requestId}/deliveryInfos
+      operationId: 3smsmessagingoutboundrequestssenderaddressrequestiddeliveryinfos
+      x-api-path-slug: 3smsmessagingoutboundrequestssenderaddressrequestiddeliveryinfos-get
+      parameters:
+      - in: path
+        name: requestId
+      - in: path
+        name: senderAddress
+      responses:
+        200:
+          description: OK
+      tags:
+      - Smsmessaging
+      - Outbound
+      - Requests
+      - Senderress
+      - RequestId
+      - DeliveryInfos
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0
