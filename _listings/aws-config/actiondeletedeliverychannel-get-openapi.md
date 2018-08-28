@@ -1,13 +1,11 @@
 ---
 swagger: "2.0"
-x-collection-name: Yelp
+x-collection-name: AWS Config
 x-complete: 0
 info:
-  title: Yelp Get Transactions Delivery Search
-  description: Get transactions delivery search.
+  title: AWS Config API Delete Delivery Channel
   version: 1.0.0
-host: api.yelp.com
-basePath: /v3
+  description: Deletes the delivery channel.
 schemes:
 - http
 produces:
@@ -15,22 +13,22 @@ produces:
 consumes:
 - application/json
 paths:
-  /transactions/delivery/search:
+  /?Action=DeleteDeliveryChannel:
     get:
-      summary: Get Transactions Delivery Search
-      description: Get transactions delivery search.
-      operationId: getTransactionsDeliverySearch
-      x-api-path-slug: transactionsdeliverysearch-get
+      summary: Delete Delivery Channel
+      description: Deletes the delivery channel.
+      operationId: deleteDeliveryChannel
+      x-api-path-slug: actiondeletedeliverychannel-get
       parameters:
       - in: query
-        name: No Name
+        name: DeliveryChannelName
+        description: The name of the delivery channel to delete
+        type: string
       responses:
         200:
           description: OK
       tags:
-      - Transactions
-      - Delivery
-      - Search
+      - Delivery Channels
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

@@ -1,9 +1,11 @@
+---
 swagger: "2.0"
 x-collection-name: AWS Config
-x-complete: 1
+x-complete: 0
 info:
-  title: AWS Config API
+  title: AWS Config API Describe Delivery Channel Status
   version: 1.0.0
+  description: Returns the current status of the specified delivery channel.
 schemes:
 - http
 produces:
@@ -59,21 +61,17 @@ paths:
           description: OK
       tags:
       - Delivery Channels
-  /?Action=PutDeliveryChannel:
-    get:
-      summary: Put Delivery Channel
-      description: Creates a delivery channel object to deliver configuration information
-        to an Amazon S3 bucket and Amazon SNS topic.
-      operationId: putDeliveryChannel
-      x-api-path-slug: actionputdeliverychannel-get
-      parameters:
-      - in: query
-        name: DeliveryChannel
-        description: The configuration delivery channel object that delivers the configuration
-          information to an Amazon S3 bucket, and to an Amazon SNS topic
-        type: string
-      responses:
-        200:
-          description: OK
-      tags:
-      - Delivery Channels
+x-streamrank:
+  polling_total_time_average: 0
+  polling_size_download_average: 0
+  streaming_total_time_average: 0
+  streaming_size_download_average: 0
+  change_yes: 0
+  change_no: 0
+  time_percentage: 0
+  size_percentage: 0
+  change_percentage: 0
+  last_run: ""
+  days_run: 0
+  minute_run: 0
+---
