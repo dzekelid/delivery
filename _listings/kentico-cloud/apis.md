@@ -43,6 +43,36 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/delivery/master/_listings/kentico-cloud/8d15591466744f1781043b1c5c2b37e4itemspartner-promotion-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/delivery/master/_listings/kentico-cloud/8d15591466744f1781043b1c5c2b37e4itemspartner-promotion-get-openapi.md
+- name: Kentico Cloud - Filtering based on date with Delivery API
+  x-api-slug: 143728440a5d434a8423605b8a631623items-get
+  description: |-
+    Filter content items directly in the API call using the `element.element_codename` query parameter and *publish from* and *publish until* elements.
+
+    See <https://developer.kenticocloud.com/docs/scheduling-content-unpublishing#section-filtering-by-date-with-the-delivery-api> for more details.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28870-kenticocloud-com.jpg
+  humanURL: https://kenticocloud.com/
+  baseURL: https://deliver.kenticocloud.com//
+  tags: SaaS, Technology, Enterprise, Relative Data, Service API, Cloud
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/delivery/master/_listings/kentico-cloud/143728440a5d434a8423605b8a631623items-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/delivery/master/_listings/kentico-cloud/143728440a5d434a8423605b8a631623items-get-openapi.md
+- name: Kentico Cloud - Displaying the right content
+  x-api-slug: 8d15591466744f1781043b1c5c2b37e4itemspartner-promotion-get
+  description: |-
+    Retrieve one personalization variant you want to display. To learn more about retrieving content, consult the [Delivery API reference](https://developer.kenticocloud.com/reference#delivery-api).
+
+    See <https://developer.kenticocloud.com/docs/personalizing-content#section-displaying-the-right-content> for more examples.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28870-kenticocloud-com.jpg
+  humanURL: https://kenticocloud.com/
+  baseURL: https://deliver.kenticocloud.com//
+  tags: SaaS, Technology, Enterprise, Relative Data, Service API, Cloud
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/delivery/master/_listings/kentico-cloud/8d15591466744f1781043b1c5c2b37e4itemspartner-promotion-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/delivery/master/_listings/kentico-cloud/8d15591466744f1781043b1c5c2b37e4itemspartner-promotion-get-openapi.md
 x-common:
 - type: x-blog-rss
   url: https://kenticocloud.com/rss

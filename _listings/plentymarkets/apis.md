@@ -11,11 +11,23 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: ""
 tags: Delivery
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/delivery/master/_listings/plentymarkets/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: plentymarkets REST-API - List VAT configurations for one country of delivery
+  x-api-slug: restvatlocationslocationidcountriescountryid-get
+  description: Lists the VAT configurations for a country of delivery of one accounting
+    location. The ID of the accounting location and the ID of the country of delivery
+    must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/delivery/master/_listings/plentymarkets/restvatlocationslocationidcountriescountryid-get-openapi.md
 x-common:
 - type: x-blog-rss
   url: https://www.plentymarkets.co.uk/?ActionCall=WebActionRSS&rrss_id=1

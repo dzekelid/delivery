@@ -8,6 +8,21 @@
 	"specificationVersion": "0.14",
 	"apis": [
 		{
+			"name": "3scale",
+			"x-api-slug": "3scale",
+			"description": "3scales API Management platform gives you the tools you need to take control of your API. Trusted by more customers than any other vendor.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/4-3scale.jpg",
+			"humanURL": "http://3scale.net",
+			"baseURL": "https://su1.3scale.net//",
+			"tags": "Delivery",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/delivery/master/_listings/3scale/openapi.md"
+				}
+			]
+		},
+		{
 			"name": "AT&T Dev Program",
 			"x-api-slug": "att-dev-program",
 			"description": "AT&T Official Site. Premium entertainment, the latest cell phones & tablets, unlimited data plans, and high-speed internet. Join the nations best network today!",
@@ -19,6 +34,126 @@
 				{
 					"type": "x-openapi-spec",
 					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/delivery/master/_listings/att-dev-program/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Twitter",
+			"x-api-slug": "twitter",
+			"description": "From breaking news and entertainment to sports and politics, get the full story with all the live commentary.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png",
+			"humanURL": "https://twitter.com/",
+			"baseURL": "https://api.twitter.com//1.1",
+			"tags": "Delivery",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/delivery/master/_listings/twitter/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Yelp",
+			"x-api-slug": "yelp",
+			"description": "User Reviews and Recommendations of Best Restaurants, Shopping, Nightlife, Food, Entertainment, Things to Do, Services and More at Yelp",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/536-yelp.jpg",
+			"humanURL": "http://yelp.com/engineering",
+			"baseURL": "https://api.yelp.com//v3",
+			"tags": "Delivery",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/delivery/master/_listings/yelp/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Dyn",
+			"x-api-slug": "dyn",
+			"description": "Dyn is home to the worlds most trusted DNS product suite and the worlds most reputable Email Deliverability Service.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg",
+			"humanURL": "http://dynect.net",
+			"baseURL": "https:///",
+			"tags": "Delivery",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/delivery/master/_listings/dyn/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Seamless",
+			"x-api-slug": "seamless",
+			"description": "Seamless | Food Delivery from Restaurants Near You ~ Order Online",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1142-seamless.jpg",
+			"humanURL": "http://www.seamless.com",
+			"baseURL": "https:///",
+			"tags": "Delivery",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/delivery/master/_listings/seamless/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "MailWriter",
+			"x-api-slug": "mailwriter",
+			"description": "Het versturen van kaarten, brieven, rekeningen, rapporten en ander drukwerk was nog nooit zo gemakkelijk, kostenefficint en milieuvriendelijk. Met MailWriter verzendt u post via het internet en tegen het laagste tarief van Nederland.    Upload uw post...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1872-mailwriter.jpg",
+			"humanURL": "http://apidoc.mailwriter.com/",
+			"baseURL": "https:///",
+			"tags": "Delivery",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/delivery/master/_listings/mailwriter/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AfterShip",
+			"x-api-slug": "aftership",
+			"description": "AfterShip is an automated tracking solution and API for eCommerce. Support tracking 460 international couriers worldwide.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/10212-aftership.jpg",
+			"humanURL": "https://www.aftership.com/",
+			"baseURL": "https:///",
+			"tags": "Delivery",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/delivery/master/_listings/aftership/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Postmates",
+			"x-api-slug": "postmates",
+			"description": "Postmates is the leading on-demand logistics provider. With more than 20,000 active Postmates, the company operates the largest on-demand delivery fleet in 40 major US metropolitan markets. Postmates overall mission to power local, on-demand logistics focused on fast deliveries from any type of merchant at scale. With collaborations with Starbucks, Chipotle, 7-Eleven, Walgreens and Apple, Postmates is in line with that mission. T",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/postmates-logo.jpg",
+			"humanURL": "https://postmates.com/",
+			"baseURL": "https:///",
+			"tags": "Delivery",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/delivery/master/_listings/postmates/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Pivotal Tracker",
+			"x-api-slug": "pivotal-tracker",
+			"description": "Pivotal Tracker is the agile project management tool of choice for developers around the world for real-time collaboration around a shared, prioritized backlog.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11526-pivotal-tracker.jpg",
+			"humanURL": "http://pivotaltracker.com",
+			"baseURL": "https://www.pivotaltracker.com//services/v3/",
+			"tags": "Delivery",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/delivery/master/_listings/pivotal-tracker/openapi.md"
 				}
 			]
 		},
@@ -53,6 +188,21 @@
 			]
 		},
 		{
+			"name": "AWS Simple Queue Service",
+			"x-api-slug": "aws-simple-queue-service",
+			"description": "Amazon Simple Queue Service (SQS) is a fast, reliable, scalable, fully managed message queuing service. Amazon SQS makes it simple and cost-effective to decouple the components of a cloud application. You can use Amazon SQS to transmit any volume of data, without losing messages or requiring other services to be always available. Amazon SQS includesstandard queueswith high throughput and at-least-once processing, andFIFO queuesthat provide FIFO (first-in, first-out) delivery and exactly-once processing. With Amazon SQS, you can offload the administrative burden of operating and scaling a highly available messaging cluster, while paying a low price for only what you use.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Application-Services_AmazonSQS.png",
+			"humanURL": "https://aws.amazon.com/sqs/",
+			"baseURL": ":///",
+			"tags": "Delivery",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/delivery/master/_listings/aws-simple-queue-service/openapi.md"
+				}
+			]
+		},
+		{
 			"name": "Avaza",
 			"x-api-slug": "avaza",
 			"description": "Avaza is a beautiful online software suite with modules for Project Management, Timesheets, Expenses &amp; Invoicing. Access from anywhere, with any device. Avaza is the leading all-in-one software for running client focused businesses. Avaza allows businesses of all sizes to more easily and effectively manage team projects, time tracking, expense reporting, quoting &amp; invoicing. It can be accessed simply via a web browser from anywhere in the world on any device.",
@@ -64,6 +214,36 @@
 				{
 					"type": "x-openapi-spec",
 					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/delivery/master/_listings/avaza/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "NxtPort",
+			"x-api-slug": "nxtport",
+			"description": "NxtPort opens the gates to the Port of the future. This project is a milestone in the digitalization of logistics and cargo.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28835-www-nxtport-eu.jpg",
+			"humanURL": "https://www.nxtport.eu",
+			"baseURL": "https://api-sb.nxtport.eu//PortCallPlus/v1",
+			"tags": "Delivery",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/delivery/master/_listings/nxtport/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "CollabNet",
+			"x-api-slug": "collabnet",
+			"description": "CollabNet is a software development and delivery solutions provider headquartered in South San Francisco, California.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28840-community-versionone-com.jpg",
+			"humanURL": "https://www.collab.net/",
+			"baseURL": "https:////ctfrest/foundation/v1",
+			"tags": "Delivery",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/delivery/master/_listings/collabnet/openapi.md"
 				}
 			]
 		},
@@ -96,13 +276,79 @@
 					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/delivery/master/_listings/gig--crowd/openapi.md"
 				}
 			]
+		},
+		{
+			"name": "Plentymarkets",
+			"x-api-slug": "plentymarkets",
+			"description": "plentymarkets is an all-in-one e-commerce ERP solution, which combines a comprehensive stock management system with a versatile shop system and effortless multichannel sales. Thanks to comprehensive functions and interfaces that include all steps of the e-commerce value chain, you can use the cloud based software to completely automate all of your e-business processes as well as your companys own individual processes.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png",
+			"humanURL": "http://www.plentymarkets.co.uk",
+			"baseURL": "https://example.com//",
+			"tags": "Delivery",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/delivery/master/_listings/plentymarkets/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "ChainGenie",
+			"x-api-slug": "chaingenie",
+			"description": "ChainGenie provides a plug and play platform that helps you connect your existing (or create new) applications to DLTs for lodging and workflow management using a simple easy to use user interface. ChainGenie is a platform to create blockchain apps that provide speed-to-market for companies looking to launch faster, rather than reinvent the wheel. Write your applications to run on popular Blockchain networks like Ethereum, Bitcoin Blockchain etc with great ease when you require to validate credentials or make your existing traditional applications use the power of DLT and blockchain overnight!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28902-api-chaingenie-com.jpg",
+			"humanURL": "http://chaingenie.com",
+			"baseURL": "https://api.chaingenie.com//api/v1",
+			"tags": "Delivery",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/delivery/master/_listings/chaingenie/openapi.md"
+				}
+			]
 		}
 	],
 	"tags": "Delivery",
 	"include": [
 		{
+			"name": "3scale",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/delivery/master/_listings/3scale/apis.yaml"
+		},
+		{
 			"name": "AT&T Dev Program",
 			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/delivery/master/_listings/att-dev-program/apis.yaml"
+		},
+		{
+			"name": "Twitter",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/delivery/master/_listings/twitter/apis.yaml"
+		},
+		{
+			"name": "Yelp",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/delivery/master/_listings/yelp/apis.yaml"
+		},
+		{
+			"name": "Dyn",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/delivery/master/_listings/dyn/apis.yaml"
+		},
+		{
+			"name": "Seamless",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/delivery/master/_listings/seamless/apis.yaml"
+		},
+		{
+			"name": "MailWriter",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/delivery/master/_listings/mailwriter/apis.yaml"
+		},
+		{
+			"name": "AfterShip",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/delivery/master/_listings/aftership/apis.yaml"
+		},
+		{
+			"name": "Postmates",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/delivery/master/_listings/postmates/apis.yaml"
+		},
+		{
+			"name": "Pivotal Tracker",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/delivery/master/_listings/pivotal-tracker/apis.yaml"
 		},
 		{
 			"name": "AWS Config",
@@ -113,8 +359,20 @@
 			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/delivery/master/_listings/aws-kinesis/apis.yaml"
 		},
 		{
+			"name": "AWS Simple Queue Service",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/delivery/master/_listings/aws-simple-queue-service/apis.yaml"
+		},
+		{
 			"name": "Avaza",
 			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/delivery/master/_listings/avaza/apis.yaml"
+		},
+		{
+			"name": "NxtPort",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/delivery/master/_listings/nxtport/apis.yaml"
+		},
+		{
+			"name": "CollabNet",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/delivery/master/_listings/collabnet/apis.yaml"
 		},
 		{
 			"name": "Kentico Cloud",
@@ -123,6 +381,14 @@
 		{
 			"name": "GIG & CROWD",
 			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/delivery/master/_listings/gig--crowd/apis.yaml"
+		},
+		{
+			"name": "Plentymarkets",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/delivery/master/_listings/plentymarkets/apis.yaml"
+		},
+		{
+			"name": "ChainGenie",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/delivery/master/_listings/chaingenie/apis.yaml"
 		}
 	]
 }

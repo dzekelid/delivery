@@ -35,6 +35,29 @@ paths:
       - Requestid
       - Condition
       - Delivery
+    post:
+      summary: Post Request Requestid Condition Delivery
+      description: Post request requestid condition delivery.
+      operationId: postApiV1RequestRequestConditionDelivery
+      x-api-path-slug: apiv1requestrequestidconditiondelivery-post
+      parameters:
+      - in: header
+        name: Authorization
+      - in: body
+        name: model
+        schema:
+          $ref: '#/definitions/holder'
+      - in: path
+        name: requestId
+        description: /
+      responses:
+        200:
+          description: OK
+      tags:
+      - Request
+      - Requestid
+      - Condition
+      - Delivery
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

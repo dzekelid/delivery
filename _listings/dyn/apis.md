@@ -7,11 +7,83 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jp
 x-kinRank: "8"
 x-alexaRank: "20789"
 tags: Delivery
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/delivery/master/_listings/dyn/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Dyn - Retrieve Emails Delivered
+  x-api-slug: reportsdelivered-get
+  description: Retrieve Emails Delivered
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
+  humanURL: http://dynect.net
+  baseURL: https:///
+  tags: DNS, DNS, DNS General, Stack Network, Technology, SaaS, Enterprise, ISP, internet,
+    Getting Started Example, API Provider, API Service Provider, Emails, Profiles,
+    Emails, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/delivery/master/_listings/dyn/reportsdelivered-get-openapi.md
+- name: Dyn - Retrieve Count of Emails Delivered
+  x-api-slug: reportsdeliveredcount-get
+  description: Retrieve Count of Emails Delivered
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
+  humanURL: http://dynect.net
+  baseURL: https:///
+  tags: DNS, DNS, DNS General, Stack Network, Technology, SaaS, Enterprise, ISP, internet,
+    Getting Started Example, API Provider, API Service Provider, Emails, Profiles,
+    Emails, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/delivery/master/_listings/dyn/reportsdeliveredcount-get-openapi.md
+- name: Dyn - Retrieve Emails Delivered
+  x-api-slug: reportsdelivered-get
+  description: Retrieve Emails Delivered
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
+  humanURL: http://dynect.net
+  baseURL: https:///
+  tags: DNS, DNS, DNS General, Stack Network, Technology, SaaS, Enterprise, ISP, internet,
+    Getting Started Example, API Provider, API Service Provider, Emails, Profiles,
+    Emails, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/delivery/master/_listings/dyn/reportsdelivered-get-openapi.md
+- name: Dyn - Retrieve Count of Emails Delivered
+  x-api-slug: reportsdeliveredcount-get
+  description: Retrieve Count of Emails Delivered
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
+  humanURL: http://dynect.net
+  baseURL: https:///
+  tags: DNS, DNS, DNS General, Stack Network, Technology, SaaS, Enterprise, ISP, internet,
+    Getting Started Example, API Provider, API Service Provider, Emails, Profiles,
+    Emails, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/delivery/master/_listings/dyn/reportsdeliveredcount-get-openapi.md
+- name: Dyn - Retrieve Emails Delivered
+  x-api-slug: reportsdelivered-get
+  description: Retrieve Emails Delivered
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
+  humanURL: http://dynect.net
+  baseURL: https:///
+  tags: DNS, DNS, DNS General, Stack Network, Technology, SaaS, Enterprise, ISP, internet,
+    Getting Started Example, API Provider, API Service Provider, Emails, Profiles,
+    Emails, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/delivery/master/_listings/dyn/reportsdelivered-get-openapi.md
+- name: Dyn - Retrieve Count of Emails Delivered
+  x-api-slug: reportsdeliveredcount-get
+  description: Retrieve Count of Emails Delivered
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/582-dyn.jpg
+  humanURL: http://dynect.net
+  baseURL: https:///
+  tags: DNS, DNS, DNS General, Stack Network, Technology, SaaS, Enterprise, ISP, internet,
+    Getting Started Example, API Provider, API Service Provider, Emails, Profiles,
+    Emails, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/delivery/master/_listings/dyn/reportsdeliveredcount-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://duckduckgo.api.gallery.streamdata.io
